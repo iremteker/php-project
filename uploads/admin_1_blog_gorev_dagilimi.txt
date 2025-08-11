@@ -1,0 +1,37 @@
+
+BLOG YÖNETİM SİSTEMİ - GÖREV DAĞILIMI (3 KİŞİLİK EKİP)
+
+----------------------------------------
+👤 KİŞİ 1: VERİTABANI & KULLANICI YÖNETİMİ
+----------------------------------------
+- Veritabanı şeması oluşturma (blog_db.sql)
+- db.php: PDO veritabanı bağlantısı
+- register.php: Kullanıcı kayıt formu ve işlemi
+- login.php: Kullanıcı girişi ve SESSION/COKIE yönetimi
+- Giriş kontrol mekanizmaları
+- Şifre güvenliği (password_hash, password_verify)
+
+----------------------------------------
+👤 KİŞİ 2: İÇERİK YÖNETİMİ
+----------------------------------------
+- admin.php: Yazıların listelenmesi
+- create.php: Yeni yazı ekleme
+- edit.php: Yazı güncelleme
+- delete.php: Yazı silme
+- CRUD işlemleri ve POST/GET kontrolleri
+- Sayfa yönlendirme ve hata yönetimi
+
+----------------------------------------
+👤 KİŞİ 3: ARAYÜZ & TASARIM
+----------------------------------------
+- style.css: Sayfa stili (responsive tasarım)
+- HTML formları düzenleme (form etiketleri, butonlar)
+- Sayfa düzeni ve kullanıcı dostu görünüm
+- Klasör yapısının organizasyonu
+- Bootstrap gibi CSS framework entegrasyonu (isteğe bağlı)
+- Ortak bileşenler (header, footer, navbar gibi)
+
+----------------------------------------
+Not:
+- Tüm ekip üyeleri, kodlarının çalıştığını test etmeli.
+- Rapor yazımında her kişi yaptığı işi açıkça belirtmelidir.
